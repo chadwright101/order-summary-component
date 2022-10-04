@@ -1,0 +1,17 @@
+{
+  "name": "order-summary-component",
+  "version": "1.0.0",
+  "description": "![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)",
+
+  "scripts": {
+    "dev": "parcel ./src/*.html --open --no-source-maps",
+    "build": "parcel build ./src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "sass": "^1.55.0"
+  }
+}
