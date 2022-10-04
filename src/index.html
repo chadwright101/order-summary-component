@@ -14,23 +14,30 @@
 
 <body>
 
-  Order Summary
-
-  You can now listen to millions of songs, audiobooks, and podcasts on any
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main>
+    <article class="card-container">
+      <div class="card box-shadow">
+        <img src="images/illustration-hero.svg" alt="Header image of person dancing whilst listening to music"
+          class="card__img">
+        <h1 class="card__heading padding">Order Summary</h1>
+        <p class="card__paragraph padding">You can now listen to millions of songs, audiobooks, and podcasts on
+          any
+          device anywhere you like!</p>
+        <div class="card__pricing">
+          <img src="images/icon-music.svg" alt="Music note icon for pricing plan">
+          <div class="card__pricing--content">
+            <p>Annual Plan</p>
+            <p>$59.99/year</p>
+          </div>
+          <a href="#" class="card__pricing--change-button">Change</a>
+        </div>
+        <button class="card__button box-shadow">
+          <p>Proceed to Payment</p>
+        </button>
+        <a class="card__cancel padding">Cancel Order</a>
+      </div>
+    </article>
+  </main>
 </body>
 
 </html>
